@@ -17,6 +17,42 @@ angular.module('ngDayOneApp')
 		description: 'This is a Ball of Fire',
 		
 	}
+  {
+    name: 'Ball of Fire',
+    price: 2000,
+    description: 'This is a Ball of Fire',
+    
+  }
+  {
+    name: 'Ball of Fire',
+    price: 2000,
+    description: 'This is a Ball of Fire',
+    
+  }
+  {
+    name: 'Ball of Fire',
+    price: 2000,
+    description: 'This is a Ball of Fire',
+    
+  }
+  {
+    name: 'Ball of Fire',
+    price: 2000,
+    description: 'This is a Ball of Fire',
+    
+  }
+  {
+    'name' : 'Ball of Fire',
+    'price': 2000,
+    'description': 'This is a Ball of Fire',
+    
+  }
+  {
+    name: 'Ball of Fire',
+    price: 2000,
+    description: 'This is a Ball of Fire',
+    
+  }
 
 
 
