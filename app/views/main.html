@@ -1,0 +1,43 @@
+<div ng-controller="MainCtrl">
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#">About</a></li>
+    <li><a ng-href="#">Contact</a></li>
+
+  </ul>
+  <h3 class="text-muted">Kackie Angular Project</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>Art of The Matter</h1>
+  <p class="lead">
+    <img src="images/grimreapermodel.jpg" alt="I'm The Grim Reaper"><br>
+    Shopping for Your Life
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#">Let's Go<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+
+<div class="row marketing">
+  <div ng-controller="ArtController as store">
+    <h1> {{store.product.name}} </h1>
+    <h2> {{store.product.price}} </h2>
+    <p> {{store.product.description}} </p>
+  </div>
+  <p>
+    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+  </p>
+
+  <h4>Angular</h4>
+  <p>
+    AngularJS is a toolset for building the framework most suited to your application development.
+  </p>
+
+  <h4>Karma</h4>
+  <p>Spectacular Test Runner for JavaScript.</p>
+</div>
+
+<div class="footer">
+  <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+</div>
+</div>
